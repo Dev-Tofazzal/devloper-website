@@ -1,0 +1,55 @@
+/* common css for this webpage */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.common_clr{
+    color: #FD6E0A;
+}
+.btn_primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    padding:15px 35px;
+}
+
+/* css for navbar start here */
+header{
+    padding-top: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title{
+    color: #181818;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav > ul > li{
+    margin-right: 50px;
+
+}
+nav > ul > li> a{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+
+}
